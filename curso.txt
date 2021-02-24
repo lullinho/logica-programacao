@@ -1,0 +1,43 @@
+- Algoritmo sequencia finita de instruções para resolver um problema
+- Programação
+> olhar imagem 1, pode programar tarefas de lavar roupa para máquina de lavar.
+
+##Construir um programa
+- Linguagem de programação
+- IDE: software para editar e testar o programa
+- Compilador: software para transformar o código fonte em código objeto
+- Gerador de código ou máquina virtual, software que permite que o programa seja executado.
+
+##LÉXICA e SINTÁTICA
+
+- léxica: cachorro, caxorro,
+- Sintática: o cachorro está com fome, a cachorro está com fome.sSs
+
+- código fonte: main.java(onde vc escreve código), main.class(bytecode, código pré-compilado), para esse arquivo .class ser executado precisa executar a partir da máquina virtual do java(JVM)
+
+1. Código fonte(onde vc escreve código mas a máquina não entende) > compilação(transform código fonte em cód objeto) > para por gerador de código(construção/build) > código executável
+> compilação: velocidade, auxilio do compilador
+
+2. Código fonte > Interpretador(ler code fonte sob demanda, faz tudo) > execução
+> interpretação: php, javascript, phyton, ruby
+> nao precisa recompilar, nao precisa recompilar para rodar em OS diferente.
+
+3. Código fonte(main.java) > compilador/precompilação > bytecode(bin/main.class - código objeto) > ao vez de passar por um gerador de código passa por uma > máquina virtual/interpretação > execução
+> Híbrida: Java(JVM-maquina virtual, C#(Microsoft .NET Framework))
+> no C# ao abrir o programa .exe é acionado a vm, executado a máquina virtual microsoft .net framework
+
+---
+
+##PORTUGOL E VISUALG
+- portugol: (linguagem - regras sintáticas)
+- visualG: ferramenta para escrever e interpretar programas
+
+- Área de um trapézio: b+B/2xH
+
+- Divisão inteira no visualG: a \ b em vez de a/b, pois se voce declarar variável como inteiro e tentar fazer divisão dá erro
+
+- Sempre pensar, quais variáveis eu preciso para armazenar os valores que eu preciso?
+
+- DEBUG: F8, parar debug ctrl+f2
+- BREAKPOINT: clicar na linha + F5
+> depois apertar F9, vai executar o programa até aquela linha que vc marcou como breakpoint, a partir daqui usar F8 para ir passando no debug.
